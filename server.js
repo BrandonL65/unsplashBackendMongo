@@ -16,6 +16,6 @@ app.get("/random", searchControls.random);
 app.get("/search", searchControls.search);
 
 //start server
-app.listen(5000, () => {
+app.listen(PORT, () => {
   console.log("LISTENING ON PORT 5000")
 });
