@@ -13,7 +13,7 @@ app.use(cors());
 
 //routes 
 app.get("/random", searchControls.random);
-app.get("/search", searchControls.search);
+app.post("/search", searchControls.search);
 
 //start server
 app.listen(PORT, () => {
